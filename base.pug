@@ -1,0 +1,14 @@
+-
+	var siteTitle = "Поршень"
+	var lang = 'ru'
+
+doctype html
+html(lang=lang)
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, inital-scale=1.0")
+		title #{siteTitle}
+		link(rel="stylesheet", href="css/style.css", media="all")
+	body
+		.wrapper
+			block content
